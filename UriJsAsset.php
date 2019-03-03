@@ -6,12 +6,14 @@ namespace morovinger\jszip;
  * @author Yurii Shekhanov
  * @link https://github.com/morovinger/yii2-js-zip
  */
-class UriJsAsset extends \yii\web\AssetBundle
+
+use \yii\web\AssetBundle;
+
+class UriJsAsset extends AssetBundle
 {
-  public $sourcePath = '@bower/stuk/slick/';
-  //public $sourcePath = '@vendor/medialize/URI.js';
+  public $sourcePath = '@bower/jszip/dist/';
 
   public $js = [
-    'dist/jszip.min.js'
+    'jszip.min.js'
   ];
 }
