@@ -1,0 +1,31 @@
+{
+    "name": "morovinger/yii2-js-zip",
+    "description": "JavaScript plugin for work with ZIP",
+    "keywords": [
+        "morovinger",
+        "yii",
+        "yii2",
+        "yii 2",
+        "javascript",
+        "zip"
+    ],
+    "type": "yii2-extension",
+    "homepage": "https://github.com/morovinger/yii2-js-zip",
+    "authors": [
+        {
+            "name": "Yurii Shekhanov",
+            "email": "morovinger88@gmail.ru",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "morovinger\\JSZip\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/JSZip": "*"
+    }
+}
