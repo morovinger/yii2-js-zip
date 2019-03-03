@@ -1,6 +1,6 @@
 <?php
 
-namespace morovinger\JSZip;
+namespace morovinger\jszip;
 
 /**
  * @author Yurii Shekhanov
