@@ -9,7 +9,7 @@ namespace morovinger\jszip;
 
 use \yii\web\AssetBundle;
 
-class UriJsAsset extends AssetBundle
+class JSZipAsset extends AssetBundle
 {
   public $sourcePath = '@bower/jszip/dist/';
 
