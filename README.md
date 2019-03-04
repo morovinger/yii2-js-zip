@@ -19,3 +19,8 @@ or add
 to the `require` section of your `composer.json` file.
 
 ## Usage
+Just register asset in a required view
+```
+use morovinger\yii2jszip;
+yii2jszip\JSZipAsset::register($this);
+```
