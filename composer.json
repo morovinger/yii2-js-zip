@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "morovinger\\jszip\\": ""
+            "morovinger\\yii2jszip\\": ""
         }
     },
     "require": {
